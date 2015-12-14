@@ -1,3 +1,12 @@
+# Reference:
+# @ARTICLE{bootsvd,
+#   author = {{Fisher}, A. and {Caffo}, B. and {Schwartz}, B. and {Zipunnikov}, V.},
+#   title = "{Fast, Exact Bootstrap Principal Component Analysis for p$\gt$1 million}",
+#   journal = {ArXiv e-prints},
+#   year = 2014,
+#   month = may
+# }
+
 # This function accepts truncated svds as well. 
 getBootSVDs <- function(u,v,d, B=100){
 	n <- nrow(v)
