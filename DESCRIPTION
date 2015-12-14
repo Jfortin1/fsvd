@@ -1,0 +1,11 @@
+Package: fsvd
+Title: Fast singular value decomposition (SVD) via randomization
+Version: 0.99.1
+Authors@R: c(person("Jean-Philippe", "Fortin", role = c("cre", "aut"),
+                    email = "jfortin@jhsph.edu"))
+Depends: R (>= 3.0.0), pbapply
+Suggests: BiocStyle, RUnit
+Description: Fast singular value decomposition (SVD) and principal component analysis (PCA) via randomization
+Url: https://github.com/Jfortin1/fsvd
+VignetteBuilder: knitr
+License: Artistic-2.0
